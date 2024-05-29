@@ -1,17 +1,13 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter OAuth</title>
+    <title>Post a Tweet</title>
 </head>
 <body>
-    <h1>Authorize Twitter App</h1>
-    <form action="/authorize" method="POST">
-        <label for="pin">Enter PIN:</label>
-        <input type="text" id="pin" name="pin" required>
-        <br>
+    <h1>Post a Tweet</h1>
+    <form action="/tweet" method="POST">
         <label for="tweet">Enter Tweet Text:</label>
         <input type="text" id="tweet" name="tweet" required>
         <br>
